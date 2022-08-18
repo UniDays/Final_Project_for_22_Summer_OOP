@@ -4,7 +4,7 @@
 
 The project has been compiled by g++. 
 
-The executable file is in  `.../2021013442/COVIDTest/CovidTest.exe` or you can compiled it by yourself, and Makefile is in `.../2021013442/COVIDTest/COVIDTest/Makefile`.
+The executable file is in  `/COVIDTest/CovidTest.exe` or you can compiled it by yourself, and Makefile is in `/COVIDTest/COVIDTest/Makefile`.
 
 ## Command Lines
 
@@ -12,15 +12,15 @@ CovidTest has two main parts: Server and Client. There would be an input prompt 
 
 You need to set input and output file path on the server and load all users' data to begin with command lines. And you can also use the command lines to register, log in, creat tube etc. on the client.
 
-You can use the command lines in the TestCommand.txt to test this program.
+You can use the command lines in the `TestCommand.txt` to test this program.
 
 ### Server
 
-`set_fp 1 .../2021013442/COVIDTest/Data/OriginUserData` 
+`set_fp 1 /COVIDTest/Data/OriginUserData` 
 `1` means setting the file of origin users' data
 `2` means setting the file of users' test result
 `3` means setting the file of tubes' test result and related people with each tube
-The following part `.../2021013442/COVIDTest/Data/OriginUserData` means file path
+The following part `COVIDTest/Data/OriginUserData` means file path
 
 `load`
 using this command to load users's data from the designative file you have set before and enter the client
